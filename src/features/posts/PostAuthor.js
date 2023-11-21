@@ -1,4 +1,6 @@
-import { useSelector } from 'react-redux'
+// import { useEffect } from 'react';
+import { useSelector } from 'react-redux';
+// import { fetchUsers } from '../users/usersSlice';
 
 export const PostAuthor = ({ userId }) => {
     const author = useSelector(state =>
